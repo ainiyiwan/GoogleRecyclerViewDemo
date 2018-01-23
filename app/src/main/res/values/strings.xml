@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">GoogleRecyclerViewDemo</string>
+    <string name="food_title_default">猜猜我是什么食物？</string>
+    <string name="food_content_default">sorry,I don\'t konw</string>
 </resources>

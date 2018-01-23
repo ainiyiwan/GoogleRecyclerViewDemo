@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="132dp"
+    android:orientation="horizontal"
+    android:padding="@dimen/fab_margin">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginRight="@dimen/fab_margin"
+        android:src="@drawable/cheese_1"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title"
+            android:textSize="16sp"
+            android:textColor="@android:color/holo_green_light"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/food_title_default"/>
+
+        <TextView
+            android:id="@+id/detail"
+            android:textSize="14sp"
+            android:textColor="@android:color/holo_orange_light"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:text="@string/food_content_default"/>
+
+    </RelativeLayout>
+
+
+</LinearLayout>
